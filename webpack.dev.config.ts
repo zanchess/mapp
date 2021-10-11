@@ -26,6 +26,17 @@ const config: Configuration = {
           },
         },
       },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [
+          // Creates `style` nodes from JS strings
+          "style-loader",
+          // Translates CSS into CommonJS
+          "css-loader",
+          // Compiles Sass to CSS
+          "sass-loader",
+        ],
+      }
     ],
   },
   resolve: {
@@ -47,7 +58,7 @@ const config: Configuration = {
   devServer: {
     static: path.join(__dirname, "build"),
     historyApiFallback: true,
-    port: 4000,
+    port: 4001,
     open: true,
     hot: true,
   },

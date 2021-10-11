@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Header from "./components/header/header";
+import "./index.scss";
 
-const today = new Date().toLocaleDateString()
 const App = () => (
-  <h2>My React and TypeScript App!!!! Date: {today}</h2>
+  <Header/>
 );
 
 ReactDOM.render(

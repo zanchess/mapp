@@ -1,7 +1,7 @@
 {
   "name": "react_webpack_project",
   "version": "1.0.0",
-  "description": "Full stack development in MERN",
+  "description": "React app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,12 +9,14 @@
     "build": "webpack --config webpack.prod.config.ts"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MuruksMeyyappan/React_Webpack_Project.git"
+    "type": "git"
   },
   "author": "Muruks",
   "license": "ISC",
   "dependencies": {
+    "node-sass": "^6.0.1",
+    "normalize-scss": "^7.0.1",
+    "normalize.css": "^8.0.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
@@ -33,15 +35,19 @@
     "@typescript-eslint/parser": "^4.32.0",
     "babel-loader": "^8.2.2",
     "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.4.0",
     "eslint": "^7.32.0",
     "eslint-plugin-react": "^7.26.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-webpack-plugin": "^3.0.1",
     "fork-ts-checker-webpack-plugin": "^6.3.3",
     "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
     "ts-node": "^10.2.1",
     "typescript": "^4.4.3",
-    "webpack": "^5.54.0",
+    "webpack": "^5.58.1",
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0"
   }
