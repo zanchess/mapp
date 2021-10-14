@@ -1,0 +1,13 @@
+@import "src/common-styles.scss";
+
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  font-family: $main-font;
+  font-weight: 400;
+  color: $color-head;
+  span{
+    font-weight: 800;
+  }
+}

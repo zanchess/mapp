@@ -1,0 +1,23 @@
+@import "src/common-styles.scss";
+
+.add__movie{
+  font-family: $main-font;
+  font-size: 18px;
+  margin-right: 20px;
+  width: 150px;
+  background: rgba(96, 96, 96, 0.6);
+  backdrop-filter: blur(8px);
+  border-radius: 5px;
+
+  a{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    text-decoration: none;
+    color: $color-head;
+    font-weight: 400;
+    justify-content: center;
+    border-radius: 5px;
+  }
+}
