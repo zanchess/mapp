@@ -4,6 +4,7 @@ import { AddMovie } from "../components/AddMovie/AddMovie";
 import { Search } from "../components/Search/Search";
 import './app.scss';
 import { Filters } from "../components/Filters/Filters";
+import { CountedMovies } from "../components/CountedMovies/CountedMovies";
 
 export const App = (): JSX.Element => {
   return (
@@ -15,8 +16,11 @@ export const App = (): JSX.Element => {
       <div className="search">
         <Search/>
       </div>
-      <div className="filters">
-        <Filters />
+      <div className="movies">
+        <div className="filters">
+          <Filters />
+        </div>
+        <CountedMovies movieSum={39} />
       </div>
     </>
   );
