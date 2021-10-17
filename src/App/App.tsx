@@ -3,6 +3,7 @@ import Logo from "../components/Logo/Logo";
 import { AddMovie } from "../components/AddMovie/AddMovie";
 import { Search } from "../components/Search/Search";
 import './app.scss';
+import { Filters } from "../components/Filters/Filters";
 
 export const App = (): JSX.Element => {
   return (
@@ -13,6 +14,9 @@ export const App = (): JSX.Element => {
       </header>
       <div className="search">
         <Search/>
+      </div>
+      <div className="filters">
+        <Filters />
       </div>
     </>
   );

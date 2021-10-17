@@ -1,7 +1,8 @@
 interface Config {
   FILTERS:{
-    GENRES: Array<string>
-  }
+    GENRES: Array<string>,
+    COMMON_FILTERS: Array<string>,
+  },
 }
 
 export const CONFIG: Config = {
@@ -13,5 +14,9 @@ export const CONFIG: Config = {
       "HORROR",
       "CRIME"
     ],
+    COMMON_FILTERS:[
+      "RELEASE DATE",
+      "RATING",
+    ]
   },
 };
